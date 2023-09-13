@@ -3,8 +3,9 @@ p {
 }
 
 .formatingImg1{
-  background: #000000;
+  display: inline-block;
   position: absolute;
+  background: #000000;
   margin-left: 7%;
   width: 25%;
   height: 25%;
@@ -12,8 +13,9 @@ p {
 }
 
 .formatingImg2{
-  background: #000000;
+  display: inline-block;
   position: absolute;
+  background: #000000;
   margin-left: 37%;
   width: 25%;
   height: 25%;
@@ -21,8 +23,9 @@ p {
 }
 
 .formatingImg3{
-  background: #000000;
+  display: inline-block;
   position: absolute;
+  background: #000000;
   margin-left: 67%;
   width: 25%;
   height: 25%;
