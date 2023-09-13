@@ -3,6 +3,7 @@ p {
 }
 
 .formatingImg1{
+  background: #000000;
   position: absolute;
   margin-left: 5%;
   width: 25%;
@@ -11,6 +12,7 @@ p {
 }
 
 .formatingImg2{
+  background: #000000;
   position: absolute;
   margin-left: 35%;
   width: 25%;
@@ -19,6 +21,7 @@ p {
 }
 
 .formatingImg3{
+  background: #000000;
   position: absolute;
   margin-left: 65%;
   width: 25%;
