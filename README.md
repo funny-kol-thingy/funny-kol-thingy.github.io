@@ -1,2 +1,2 @@
-# funny-kol-thingy.githun.io
+# funny-kol-thingy.github.io
 bday website :) 
