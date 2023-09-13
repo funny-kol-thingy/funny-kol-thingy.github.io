@@ -7,8 +7,8 @@ p {
   position: absolute;
   background: #000000;
   margin-left: 7%;
-  width: 1.6vw;
-  height: 1.6vw;
+  width: 24vw;
+  height: 24vw;
   border: 5px solid #000000;
 }
 
@@ -17,8 +17,8 @@ p {
   position: absolute;
   background: #000000;
   margin-left: 37%;
-  width: 1.6vw;
-  height: 1.6vw;
+  width: 24vw;
+  height: 24vw;
   border: 5px solid #000000;
 }
 
@@ -27,7 +27,7 @@ p {
   position: absolute;
   background: #000000;
   margin-left: 67%;
-  width: 1.6vw;
-  height: 1.6vw;
+  width: 24vw;
+  height: 24vw;
   border: 5px solid #000000;
 }
