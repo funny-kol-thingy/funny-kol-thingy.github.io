@@ -30,4 +30,15 @@ p {
 .image-3 {
     background-image: url('static/art-3.png');
 }
-  
+
+@media (max-width: 480px) {
+    .image-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .image-container-child {
+        width: 80vw;
+        height: 80vw;
+    }
+}
