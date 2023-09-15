@@ -2,6 +2,32 @@ p {
     font-size: 50px;
     text-align: center;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+
+body {
+	background: black;
+	cursor: crosshair;
+	margin: 0;
+}
+
+canvas {
+	display: block;
+}
+
+h1 {
+	color: #fff;
+	font-family: "Source Sans Pro";
+	font-size: 4em;
+	font-weight: bold;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	user-select: none;
+	webkit-user-select: none;
+}
   
 .image-container {
     margin-top: 30vw;
@@ -144,4 +170,94 @@ p {
         width: 80vw;
         height: 80vw;
     }
+}
+
+
+#cake {
+    display: block;
+    margin: -10em auto 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.candle {
+	animation: in 500ms 6s ease-out forwards;
+	backface-visibility: hidden;
+	background: #ffffff;
+	border-radius: 10px;
+	height: 35px;
+	left: 50%;
+	position: absolute;
+	top: 228px;
+	transform: translateY(-300px);
+	width: 5px;
+}
+
+.candle:after,
+.candle:before {
+	background: rgba(255, 0, 0, 0.4);
+	content: "";
+	height: 2.22222222px;
+	position: absolute;
+	width: 100%;
+}
+
+.candle:after {
+	left: 0;
+	top: 25%;
+}
+
+.candle:before {
+	left: 0;
+	top: 45%;
+}
+
+.fire {
+	border-radius: 100%;
+	height: 18px;
+	left: 50%;
+	margin-left: -2.6px;
+	position: absolute;
+	top: -20px;
+	width: 6.66666667px;
+}
+
+.fire:nth-child(1) {
+	animation: fire 2s 6.5s infinite;
+}
+
+.fire:nth-child(2) {
+	animation: fire 1.5s 6.5s infinite;
+}
+
+.fire:nth-child(3) {
+	animation: fire 1s 6.5s infinite;
+}
+
+.fire:nth-child(4) {
+	animation: fire 0.5s 6.5s infinite;
+}
+
+.fire:nth-child(5) {
+	animation: fire 0.2s 6.5s infinite;
+}
+
+@keyframes fire {
+	0%, 100% {
+		background: rgba(254, 248, 97, 0.5);
+		box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+		transform: translateY(0) scale(1);
+	}
+	50% {
+		background: rgba(255, 50, 0, 0.1);
+		box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+		transform: translateY(-20px) scale(0);
+	}
+}
+
+@keyframes in {
+	to {
+		transform: translateY(0);
+	}
 }
