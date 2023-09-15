@@ -192,6 +192,7 @@ h1 {
     background-image: url('static/art-29.png');
     transition: 0.5s ease-in;
 }
+
 .image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover, .image-7:hover,
 .image-8:hover, .image-9:hover, .image-10:hover, .image-11:hover, .image-12:hover, .image-13:hover, .image-14:hover,
 .image-15:hover, .image-16:hover, .image-17:hover, .image-18:hover, .image-19:hover, .image-20:hover, .image-21:hover,
