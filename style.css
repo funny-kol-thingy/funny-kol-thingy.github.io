@@ -37,13 +37,99 @@ p {
     transition: 0.5s ease-in;
 }
 
-.layer{
-    background: #00000082;
+.image-4 {
+    background-image: url('static/art-4.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-5 {
+    background-image: url('static/art-5.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-6 {
+    background-image: url('static/art-6.png');
+    transition: 0.5s ease-in;
 }
 
-.image-1:hover,
-.image-2:hover,
-.image-3:hover {
+.image-7 {
+    background-image: url('static/art-7.png');
+    transition: 0.5s ease-in;
+}
+
+.image-8 {
+    background-image: url('static/art-8.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-9 {
+    background-image: url('static/art-9.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-10 {
+    background-image: url('static/art-10.png');
+    transition: 0.5s ease-in;
+}
+
+.image-11 {
+    background-image: url('static/art-11.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-12 {
+    background-image: url('static/art-12.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-13 {
+    background-image: url('static/art-13.png');
+    transition: 0.5s ease-in;
+}
+
+.image-14 {
+    background-image: url('static/art-14.png');
+    transition: 0.5s ease-in;
+}
+
+.image-15 {
+    background-image: url('static/art-15.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-16 {
+    background-image: url('static/art-16.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-17 {
+    background-image: url('static/art-17.png');
+    transition: 0.5s ease-in;
+}
+
+.image-18 {
+    background-image: url('static/art-18.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-19 {
+    background-image: url('static/art-19.png');
+    transition: 0.5s ease-in;
+}
+  
+.image-20 {
+    background-image: url('static/art-20.png');
+    transition: 0.5s ease-in;
+}
+
+.image-21 {
+    background-image: url('static/art-21.png');
+    transition: 0.5s ease-in;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover, .image-7:hover,
+.image-8:hover, .image-9:hover, .image-10:hover, .image-11:hover, .image-12:hover, .image-13:hover, .image-14:hover,
+.image-15:hover, .image-16:hover, .image-17:hover, .image-18:hover, .image-19:hover, .image-20:hover, .image-21:hover {
     color: #000000;
     transition-duration: 0.5s;
     
