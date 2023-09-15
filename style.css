@@ -31,6 +31,11 @@ p {
     background-image: url('static/art-3.png');
 }
 
+.image-1, .image-2, .image-3: hover {
+    background: #00853e;
+    transition: background 3s;
+}
+
 @media (max-width: 480px) {
     .image-container {
         flex-direction: column;
