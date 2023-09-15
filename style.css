@@ -314,5 +314,5 @@ h1 {
 
 @keyframes gif-animation {
 	0% {background-position: 0 0; } 
-  	100% {background-position: 0 -2391px; }
+  	100% {background-position: 0 24vw; }
 }
